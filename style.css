@@ -5,6 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+
+}
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: orange;
 }
@@ -32,4 +39,51 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: bold;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+
+}
+.experience-area{
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.orange-highlight{
+    color:orange;
+}
+.single-experience{
+    box-shadow: 10px 20px 30px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: whitesmoke;
+
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    margin: 0px;
+
+}
+#left-one{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg ,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#right-one{
+    border-left: 7px solid;
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg ,blue, cyan);
+    border-image-slice: 1; 
+    
+}
+
+footer p{
+    text-align: center;
+
 }
